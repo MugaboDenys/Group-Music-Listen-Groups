@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Cera;
+    src: url(/music_controller/Cera.otf);
+  }
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 49, 49);
+    color: rgb(23, 188, 8);
+    font-family: 'Sofia', sans-serif;
+}
+
+#main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gradient {
+    width: 100%;
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+  }
